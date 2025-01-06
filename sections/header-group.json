@@ -11,28 +11,36 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "topbar_9LGhef": {
+      "type": "topbar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
+        "phone_number_CRfGk3": {
+          "type": "phone-number",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "phoneNumber": "+251 911-728-635"
+          }
+        },
+        "phone_number_3RVy4e": {
+          "type": "phone-number",
+          "settings": {
+            "phoneNumber": "+251 947-969-577"
+          }
+        },
+        "customer_account_wpjr6a": {
+          "type": "customer-account",
+          "settings": {
+            "enable_avatar": true
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "phone_number_CRfGk3",
+        "phone_number_3RVy4e",
+        "customer_account_wpjr6a"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
+        "top_bar_alignment": "right",
+        "dark_mode": true
       }
     },
     "header": {
@@ -53,10 +61,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_Fqipqm": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_REEjwU": {
+          "type": "announcement",
+          "settings": {
+            "text": "<h6><strong>FREE SHIPING</strong> on most orders over $99. <span style=\"text-decoration:underline\">Get details</span></h6>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_REEjwU"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "topbar_9LGhef",
+    "header",
+    "announcement_bar_Fqipqm"
   ]
 }
